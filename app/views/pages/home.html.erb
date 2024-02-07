@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div>
+  <% if user_signed_in? %>
+  <h1>Welcome Kanji collector</h1>
+    <!-- <h1>Welcome <%= current_user.email %></h1> -->
+  <% end %>
+</div>
